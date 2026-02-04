@@ -1,0 +1,59 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #301d69;
+  font-family: 'Poppins', sans-serif;
+  z-index: 999;
+}
+
+.navbar-brand {
+  color: #9aff3f !important;
+  font-size: 1.8rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #4CAF50;
+}
+
+.navbar-nav .btn {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.icon-link {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.icon-link:hover {
+  color: #9aff3f;
+}
+
+.navbar-toggler {
+  border-color: #9aff3f;
+}
+
+.navbar-toggler-icon {
+  background-color: #9aff3f;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+
+/* Optional: Add space at the right end of the navbar */
+.navbar-nav .nav-item:last-child {
+  margin-right: 50px;
+}
+.nav-item{
+  margin-right: 50px;
+}

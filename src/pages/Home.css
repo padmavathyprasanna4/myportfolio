@@ -1,0 +1,65 @@
+/* Full height section with background color */
+.hero-section {
+  height: calc(100vh - 60px);  /* Adjust height to avoid extra space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #191c3a;  /* Your desired background color */
+  margin-bottom: 20px;  /* Adjust margin to remove any gap */
+}
+
+/* Hero Image (Left Side) */
+.hero-image {
+  flex: 1;
+  height: 100%; /* Adjust height to fit the container */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Circular Hero Image with Reduced Size */
+.hero-image img {
+  width: 250px; /* Reduced width */
+  height: 250px; /* Keep the height equal to the width */
+  border-radius: 50%; /* Circular shape */
+  object-fit: cover; /* Maintain the image's clarity */
+  margin-top: 40px;
+}
+
+/* Hero Content (Right Side) */
+.hero-content {
+  flex: 1;
+  padding: 2rem;
+  text-align: left;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.hero-content .btn {
+  font-family: 'Poppins', sans-serif;
+  margin-right: 10px;
+}
+
+.hero-content .btn-primary {
+  background-color: #4CAF50;
+  border: none;
+}
+
+/* Ensures the footer is at the bottom of the page */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

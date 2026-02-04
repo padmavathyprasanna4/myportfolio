@@ -27,7 +27,7 @@ const Home = () => {
 
           {/* Downloads CV */}
           <a
-            href="../assets/Padmavathy_Gangadaran_Latest Resume.pdf"
+            href="public/Padmavathy_Gangadaran_LatestResume.pdf"
             download
             className="btn btn-outline-light ms-3"
           >
